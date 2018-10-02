@@ -4,7 +4,6 @@ def my_collect(array)
   while i<array.length 
   new_array << yield (array[i])
   i= i+1 
-array.split(" ").first
 end 
 array
 end
